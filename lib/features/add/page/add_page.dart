@@ -35,7 +35,6 @@ class _AddPageState extends State<AddPage> {
               ),
             );
           }
-          ;
         },
         child: BlocBuilder<AddCubit, AddState>(
           builder: (context, state) {
