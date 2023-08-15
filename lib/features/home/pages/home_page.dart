@@ -20,9 +20,11 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => const UserProfile(),
-              ));
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const UserProfile(),
+                ),
+              );
             },
             icon: const Icon(Icons.person),
           ),

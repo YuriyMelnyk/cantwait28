@@ -7,7 +7,7 @@ class UserProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ProfileScreen(
-      providerConfigs: const [
+      providerConfigs:  const [
         EmailProviderConfiguration(),
       ],
       actions: [
